@@ -1,0 +1,284 @@
+/**
+*  Publish Foundation theme
+*  Copyright (c) John Sundell 2019
+*  MIT license, see LICENSE file for details
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: Helvetica, Arial;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header {
+    position: relative;
+/*    background: linear-gradient(to bottom, #ff644e, #cb3018);*/
+/*    background: linear-gradient(to bottom, #009FFD, #2A2A72);*/
+    background: linear-gradient(to bottom, #0E3386, #009FFD);
+
+    color: #fff;
+    line-height: 1.5em;
+    padding: 0 20px;
+}
+
+header .wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+header a.site-name {
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a.site-name:hover {
+    background-color: #000000;
+    text-decoration: underline;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 7px;
+    line-height: 1.5em;
+    padding: 4px;
+}
+
+nav li a {
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+nav li a.selected {
+    background-color: #333333;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .content hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: inherit;
+}
+
+.cc {
+    height: 14px!important;
+    margin-left: 3px;
+    vertical-align: text-bottom;
+}
+
+img[alt*="family-picture"] {
+    max-width: 100%;
+    height: auto;
+    margin-bottom:10px;
+}
+
+img[alt*="family-with-parrot"] {
+    max-width: 50%;
+    height: auto;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+img[alt*="closet"] {
+    float:right;
+    padding-left: 20px;
+    width: 251px;
+    height:448px;
+}
+
+img[alt*="family-picture"] {
+    border: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+img[alt*="social-icon"] {
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+img[alt*="four-of-us"] {
+    border: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 600px;
+}
+
+img[alt*="About-Macbook-Pro"] {
+    border: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.item-list > li {
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.item-list > li:last-child {
+    margin-bottom: 0;
+}
+
+.common ul {
+    margin-left: 20px;
+}
+
+.common ul li ul {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.common ul li ul li {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.item-list h1 {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.item-list p {
+    margin-bottom: 0;
+}
+
+.tag-list {
+    margin-bottom: 15px;
+}
+
+.tag-list li,
+.tag {
+    display: inline-block;
+    background-color: #000;
+    color: #ddd;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tag-list a,
+.tag a {
+    text-decoration: none;
+}
+
+.item-page .tag-list {
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 40px;
+}
+
+.browse-all {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.all-tags li {
+    font-size: 1.4em;
+    margin-right: 10px;
+    padding: 6px 10px;
+}
+
+footer {
+    color: #8a8a8a;
+    font-size: x-small;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+    }
+
+    body {
+        color: #ddd;
+    }
+
+    .item-list > li {
+        background-color: #333;
+    }
+
+    header {
+        background-color: #000;
+    }
+}
+
+
+@media(max-width: 600px) {
+    .wrapper {
+        padding: 40px 20px;
+    }
+}
