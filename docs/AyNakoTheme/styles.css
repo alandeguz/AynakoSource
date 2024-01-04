@@ -196,6 +196,12 @@ img[alt*="About-Macbook-Pro"] {
     margin-left: 20px;
 }
 
+a.footnote {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
 .common ul li ul {
     list-style: none;
     padding-bottom: 10px;
